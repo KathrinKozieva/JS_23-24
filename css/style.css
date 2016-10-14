@@ -1,0 +1,76 @@
+body {
+	background:url(../img/bc.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+li {
+	list-style: none;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+.item__delete {
+	margin-right: 20px;
+	border: 1px solid black;
+	font-size: 28px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 50%;
+	cursor: pointer;
+	font-weight: bold;
+	background-color: #bbb;
+}
+
+.edits {
+	opacity: 0;
+}
+
+input {
+	height: 32px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #bbb;
+	outline: none;
+	padding-left: 10px;
+	font-size: 16px;
+	font-style: italic;
+	border: none;
+}
+
+button {
+	height: 32px;
+	margin-left: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	background-color: #bbb;
+	border: none;
+	outline: none;
+}
+
+.li__item {
+	cursor: pointer;
+}
+
+button:hover, input:hover, .item__delete:hover {
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+}
+
+.li__item:hover, .item__delete:hover {
+	color: darkblue;
+}
